@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.wipro.testcaes.RegAndAddToCartTcase">
+        <methods>
+          <include name="extendreports"/>
+          <include name="logout"/>
+          <include name="addToCart"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.wipro.testcaes.RegAndAddToCartTcase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

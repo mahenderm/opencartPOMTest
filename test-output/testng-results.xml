@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="153106" started-at="2018-02-13T06:14:42Z" finished-at="2018-02-13T06:17:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="153106" started-at="2018-02-13T06:14:42Z" finished-at="2018-02-13T06:17:15Z">
+      <class name="com.wipro.testcaes.RegAndAddToCartTcase">
+        <test-method status="PASS" signature="extendreports()[pri:0, instance:com.wipro.testcaes.RegAndAddToCartTcase@475530b9]" name="extendreports" is-config="true" duration-ms="125" started-at="2018-02-13T11:44:42Z" finished-at="2018-02-13T11:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extendreports -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.wipro.testcaes.RegAndAddToCartTcase@475530b9]" name="launchBrowser" is-config="true" duration-ms="5138" started-at="2018-02-13T11:44:42Z" finished-at="2018-02-13T11:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wipro.testcaes.RegAndAddToCartTcase@475530b9]" name="registration" duration-ms="2034" started-at="2018-02-13T11:44:48Z" data-provider="User Details" finished-at="2018-02-13T11:44:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahender]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mahiii2@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567895]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[hyd]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hyd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Telangana]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[aaaaaaa]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[aaaaaaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="addReviewOnViewedProduct(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.wipro.testcaes.RegAndAddToCartTcase@475530b9]" name="addReviewOnViewedProduct" duration-ms="21277" started-at="2018-02-13T11:44:50Z" data-provider="ReviewInputValues" finished-at="2018-02-13T11:45:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xxx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is the 1st review ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReviewOnViewedProduct -->
+        <test-method status="PASS" signature="addReviewOnViewedProduct(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.wipro.testcaes.RegAndAddToCartTcase@475530b9]" name="addReviewOnViewedProduct" duration-ms="61778" started-at="2018-02-13T11:45:11Z" data-provider="ReviewInputValues" finished-at="2018-02-13T11:46:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yyy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is the second review comment on this product]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReviewOnViewedProduct -->
+        <test-method status="PASS" signature="addToWishlist()[pri:3, instance:com.wipro.testcaes.RegAndAddToCartTcase@475530b9]" name="addToWishlist" duration-ms="2122" started-at="2018-02-13T11:46:13Z" finished-at="2018-02-13T11:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishlist -->
+        <test-method status="PASS" signature="addToCart()[pri:4, instance:com.wipro.testcaes.RegAndAddToCartTcase@475530b9]" name="addToCart" duration-ms="59617" started-at="2018-02-13T11:46:15Z" finished-at="2018-02-13T11:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.wipro.testcaes.RegAndAddToCartTcase@475530b9]" name="logout" is-config="true" duration-ms="596" started-at="2018-02-13T11:47:14Z" finished-at="2018-02-13T11:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.wipro.testcaes.RegAndAddToCartTcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
