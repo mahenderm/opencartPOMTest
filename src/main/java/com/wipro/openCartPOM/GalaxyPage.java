@@ -39,7 +39,7 @@ public class GalaxyPage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	public GalaxyPage productreview(String reviewerName,String reviewComments,String rating){
+	public GalaxyPage productreview(String reviewerName,String reviewComments,String rating)throws InterruptedException{
 		reviewTab.click();
 		WebElement ratingValue = driver.findElement(By.xpath("//input[@value='"+rating+"']"));
 		String a=rating;
@@ -53,9 +53,10 @@ public class GalaxyPage {
 		//To Enter Captcha Manually
 		System.out.println("Please enter Captcha:");
 		Scanner scanner = new Scanner(System.in);
-		String captcha = scanner.nextLine();		
+		String captcha = scanner.nextLine();
+		Thread.sleep(1000);
 		inputCaptcha.sendKeys(captcha);
-		
+		Thread.sleep(1000);
 		continueButton.click();
 		
 		
