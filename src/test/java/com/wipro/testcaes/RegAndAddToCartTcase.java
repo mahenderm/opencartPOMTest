@@ -66,7 +66,7 @@ public class RegAndAddToCartTcase {
 		
 		//Test To add reviews on the product
 		@Test(priority=2, dataProvider="ReviewInputValues")
-		public void addReviewOnViewedProduct(String name,String reviewComments,String rating){
+		public void addReviewOnViewedProduct(String name,String reviewComments,String rating)throws InterruptedException{
 			
 			//Calling method to navigate to Home Page after registration
 			homePage=registraionPageOC.navigateToHome();//should be done from common actions class
