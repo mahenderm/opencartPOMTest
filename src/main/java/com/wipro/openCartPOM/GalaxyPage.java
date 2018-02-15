@@ -48,14 +48,14 @@ public class GalaxyPage {
 		inputText.clear();
 		inputText.sendKeys(reviewComments);
 		ratingValue.click();
-		inputCaptcha.clear();
+		//inputCaptcha.clear();
 		
 		//To Enter Captcha Manually
 		System.out.println("Please enter Captcha:");
-		Scanner scanner = new Scanner(System.in);
-		String captcha = scanner.nextLine();
-		Thread.sleep(1000);
-		inputCaptcha.sendKeys(captcha);
+		//Scanner scanner = new Scanner(System.in);
+		//String captcha = scanner.nextLine();
+		//Thread.sleep(1000);
+		//inputCaptcha.sendKeys(captcha);
 		Thread.sleep(1000);
 		continueButton.click();
 		
