@@ -56,7 +56,7 @@ public class GalaxyPage {
 		//String captcha = scanner.nextLine();
 		//Thread.sleep(1000);
 		//inputCaptcha.sendKeys(captcha);
-		Thread.sleep(1000);
+		Thread.sleep(10000);
 		continueButton.click();
 		
 		
